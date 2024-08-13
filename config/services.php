@@ -30,5 +30,16 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'clover' => [
+        'base_url' => env('CLOVER_API_BASE_URL', 'https://sandbox.dev.clover.com/v3'),
+        'app_id' => env('CLOVER_APP_ID'),
+        'app_secret' => env('CLOVER_APP_SECRET'),
+        'raid' => env('CLOVER_RAID'),
+        'oauth_url' => env('CLOVER_OAUTH_URL', 'https://sandbox.dev.clover.com/oauth/token'),
+        'token' => env('CLOVER_ACCESS_TOKEN'),
+        'redirect' => env('CLOVER_REDIRECT_URI'),
+        'merchant_id' => env('CLOVER_MERCHANT_ID'),
+        'employee_id' => env('CLOVER_EMPLOYEE_ID'),
+    ],
 
 ];
